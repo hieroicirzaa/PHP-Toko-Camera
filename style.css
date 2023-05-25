@@ -1,0 +1,97 @@
+.htmlHome{
+    height: 100%;
+    background-image: url(assets/camera\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.htmlLogin{
+    height: 100%;
+    background-image: url(assets/camera\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bodyLogin{
+    height: 100%;
+    background-image: url(assets/camera\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bgProduk{
+    
+}
+
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3D8361;
+}
+
+#kotak{
+    width: 380px;
+    height: 450px;
+    padding: 20px;
+    /* background-color: #EEF2E6 !important; */
+    background-color: beige;
+    border-radius: 10px !important;
+}
+
+input[type="text"],
+input[type="password"],
+select[name="level"]{
+    background: #EEF2E6;
+    color: #000;
+    border: 2px solid #3D8361;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+
+.navbar{
+    background-color: #1a2226;
+    color: #B1D7B4;
+}
+
+.home{
+    width: 380px;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 10%;
+    color: black;
+    position: fixed;
+    
+}
+
+.h1{
+    text-align: center;
+}
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+@font-face{
+    font-family: selidon;
+    src: url(font/SolidentrialLightoblique-L3x3W.otf);
+}
+
+.bg_histori{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(assets/film-near-photo-video-cameras2.jpg);
+}
